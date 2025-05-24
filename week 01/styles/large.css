@@ -1,0 +1,189 @@
+/* Base styles */
+body {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   background-color: #f4f4f4;
+   color: #333;
+ }
+ 
+ /* Header */
+ header {
+   background-color: #1e4b6d;
+   color: white;
+   display: flex;
+   align-items: center;
+   padding: 1rem;
+   gap: 1rem;
+   justify-content: center;
+ }
+ 
+ header img {
+   width: 200px;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 2px solid #fff;
+ }
+ 
+ header span {
+   font-size: 1.5rem;
+   font-weight: bold;
+ }
+ 
+ /* Navigation */
+ nav {
+   background-color: #000;
+   position: relative;
+ }
+ 
+ nav button#menu {
+   display: none;
+   background: none;
+   border: none;
+   font-size: 1.5rem;
+   color: white;
+   padding: 1rem;
+ }
+ 
+ #nav-list {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   margin: 0;
+   padding: 0.5rem 0;
+ }
+ 
+ #nav-list a {
+   color: white;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+ }
+ 
+ #nav-list a.active {
+   color: #d4ff00;
+   font-weight: bold;
+ }
+ 
+ #nav-list a:hover {
+   background-color: #333;
+ }
+ 
+ /* Main Content */
+ main {
+   padding: 1rem;
+ }
+ 
+ h1 {
+   color: #1e4b6d;
+   font-size: 1.75rem;
+ }
+ 
+ .welcome {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   margin-bottom: 2rem;
+ }
+ 
+ .card {
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+   padding: 1rem;
+   flex: 1 1 300px;
+ }
+ 
+ .card h2 {
+   background-color: #1e4b6d;
+   color: white;
+   padding: 0.5rem;
+   border-radius: 4px;
+   font-size: 1.2rem;
+ }
+ 
+ .card img {
+   width: 100%;
+   border-radius: 4px;
+   margin-top: 0.5rem;
+ }
+ 
+ .card p {
+   text-align: center;
+   margin-top: 0.5rem;
+ }
+ 
+ /* Courses Section */
+ .courses h2 {
+   background-color: #1e4b6d;
+   color: white;
+   padding: 0.75rem;
+   border-radius: 8px 8px 0 0;
+   margin-bottom: 0;
+   text-align: center;
+ }
+ 
+ .filter-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   padding: 1rem;
+   background-color: #fff;
+ }
+ 
+ .filter-buttons button {
+   padding: 0.5rem 1.25rem;
+   border: none;
+   background-color: #000;
+   color: white;
+   font-weight: bold;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ 
+ .filter-buttons button:hover {
+   background-color: #444;
+ }
+ 
+ #course-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+   padding: 1rem;
+   justify-content: center;
+   background-color: #fff;
+ }
+ 
+ .course {
+   padding: 1rem 2rem;
+   border: none;
+   font-weight: bold;
+   border-radius: 6px;
+   cursor: pointer;
+ }
+ 
+ .course.cse {
+   background-color: #6b3b2e;
+   color: white;
+ }
+ 
+ .course.wdd {
+   background-color: #6b3b2e;
+   color: white;
+ }
+ 
+ /* Footer */
+ footer {
+   background-color: #1e4b6d;
+   color: white;
+   text-align: center;
+   padding: 1rem;
+ }
+ 
+ footer p {
+   margin: 0.25rem 0;
+ }
+ 
+ footer img {
+   margin-top: 0.5rem;
+ }
+ 
